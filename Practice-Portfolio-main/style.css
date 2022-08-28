@@ -1,0 +1,66 @@
+/*base styles  */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+  background-color: #efe9dc;
+  font-family: poppins, sans-serif;
+  font-size:16px;
+  color:#3e503c;
+}
+/* grouped header and footer for same styles */
+header, footer{
+  background-color:#f2b5a1;
+  padding:20px;
+
+}
+
+main{
+  width:600px;
+  margin: auto;
+}
+/*creating consistent margins  */
+article,
+hr{
+  margin-top:50px;
+}
+/*heading styles  */
+h1,
+h2,
+h3{
+  margin:0;
+  text-align:center;
+}
+
+h1{
+  font-size:56px;
+  font-family:"josefin slab",serif;
+}
+
+h2{
+font-family:"josefin slab",serif;
+}
+
+h3{
+  font-weight:300;
+}
+/* image styles */
+#profileImage {
+  text-align:center;
+}
+
+img{
+  width:300px;
+  margin: 30px 0;
+  text-align:center;
+}
+
+/*link styles  */
+a{
+  text-decoration: none;
+  color:#ee9c81;
+}
+/* pseudo class for links */
+a:visited {color:#b582d9;}
+a:hover {color:purple;}
